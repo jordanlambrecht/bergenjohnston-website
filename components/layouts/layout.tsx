@@ -1,4 +1,4 @@
-import { Footer, Nav } from "@parts/modules/index";
+import { Footer } from "@parts/modules/index";
 
 export default function Layout({ children }) {
   return (
