@@ -6,111 +6,27 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title='Jordan Lambrecht'
+        title='Bergen Johnston'
         description={`Hi, I'm Jordan Lambrecht, a Professional Something or Another in Lincoln, Nebraska.`}
-        canonical='https://jordanlambrecht.com'
+        canonical='https://bergenjohnston.com'
         openGraph={{
-          url: "https://jordanlambrecht.com",
-          title: "Jordan Lambrecht",
-          type: "profile",
-          profile: {
-            firstName: "Jordan",
-            lastName: "Lambrecht",
-            username: "jlambrecht265",
-            gender: "male",
-          },
+          url: "https://bergenjohnston.com",
+          title: "Bergen Johnston",
           description:
-            "Hi, I'm Jordan Lambrecht, a Professional Something or Another in Lincoln, Nebraska.",
-          images: [
-            {
-              url: "https://jordanlambrecht.com/img/JordanPlantStore.jpg",
-              width: 1920,
-              height: 1440,
-              alt: "Jordan Lambrecht in Lincoln Nebraska",
-              type: "image/jpeg",
-            },
-          ],
-          siteName: "Jordan Lambrecht",
-        }}
-        twitter={{
-          handle: "@JordyJordyJordN",
-          site: "@site",
-          cardType: "summary_large_image",
+            "Hi, I'm Bergen Johnston, a Professional Something or Another in Lincoln, Nebraska.",
+          siteName: "Bergen Johnston",
         }}
       />
-      <SocialProfileJsonLd
-        type='Person'
-        name='Jordan Lambrecht'
-        url='https://jordanlambrecht.com'
-        sameAs={[
-          "http://www.facebook.com/jlambrecht265",
-          "http://instagram.com/jlambrecht265",
-          "http://www.linkedin.com/in/jordan-lambrecht-41393a80",
-          "https://twitter.com/JordyJordyJordN",
-        ]}
-      />
+
       <Section id='landing' className={""}>
-        <div className='flex flex-col lg:flex-row gap-x-24 gap-y-16'>
-          <div className='w-full lg:w-3/5'>
-            <Link
-              href='/img/JordanPlantStore.jpg'
-              target={"_blank"}
-              className={"cursor-pointer"}
-            >
-              <Image
-                src={"/img/JordanPlantStore.jpg"}
-                width={1920}
-                height={1440}
-                className={"cursor-pointer"}
-                alt={
-                  "Jordan Lambrecht at Urban Trails nursery during the pandemic."
-                }
-              />
-            </Link>
-          </div>
-          <div className='prose prose-slate prose-lg font-body'>
-            <p>
-              Hi, I&apos;m Jordan Lambrecht, a Professional Something or Another
-              based out of Lincoln, Nebraska.
+        <div className='h-full flex justify-center lg:flex-row gap-x-24 gap-y-16'>
+          <div className='self-center prose prose-stone  font-body'>
+            <h1 className='prose prose-gray text-4xl dark:prose-invert font-semibold opacity-75 tracking-wide'>
+              This is literally a blank page.
+            </h1>
+            <p className='prose prose-gray prose-lg opacity-75'>
+              It’s very mysterious and very intriguing.
             </p>
-            <p>
-              Creating well-designed and personal moments that make people happy
-              gets me out of bed in the morning – and keeps me up at night. As
-              such, an off button is not part of my programming, be it with{" "}
-              <Link href={"https://pixelbakery.com/work"}>animation</Link>,{" "}
-              <Link href={"https://opeweeloped.us"}>web development</Link>, or
-              any other outlet that involves making something exist that
-              didn&apos;t before. When I&apos;m not staring at a computer,
-              I&apos;m probably building something, killing plants, or making
-              shitty pots.
-            </p>
-
-            <p>
-              I&apos;m the Director and Founder of{" "}
-              <Link href='https://pixelbakery.com'>
-                Pixel Bakery Design Studio
-              </Link>{" "}
-              and sit on the Board of Directors for the{" "}
-              <Link href={"https://www.luxcenter.org"}>
-                Lux Center for the Arts
-              </Link>
-              . Sometimes I host workshops, create{" "}
-              <Link href={"https://pixelbakery.com/education"}>tutorials</Link>,
-              and do some public speaking.
-            </p>
-
-            <p>
-              I give credence to the idea that the critical components of a
-              greater creative community are vulnerability, de-stigmatization of
-              mental health, and equity.
-            </p>
-
-            <p>
-              I believe in free and open education, treating human beings like
-              humans, and empowering those not as far along on their journey as
-              I am.
-            </p>
-            <p>I believe in you. ❤️</p>
           </div>
         </div>
       </Section>
